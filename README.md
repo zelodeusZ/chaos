@@ -6,10 +6,13 @@ It is a development-memory and coordination repository, not the Roblox place fil
 
 ## Start here
 1. Read CLAUDE.md before doing any work.
-2. Read PROJECT_STATE.md for confirmed design decisions and implementation status.
+2. Read PROJECT_STATE.md for user-decided design and current implementation status.
 3. Read CURRENT_TASK.md for the active assignment.
-4. Check TEST_RESULTS.md before repeating tests.
-5. Use DEVELOPMENT_ROADMAP.md for planned work.
+4. Read COMBAT_SYSTEM.md for the combat architecture and unresolved Stage 3 checks.
+5. Read GAME_DESIGN.md for consolidated design systems.
+6. Check TEST_RESULTS.md before repeating tests.
+7. Use DEVELOPMENT_ROADMAP.md for planned sequencing.
+8. Read SESSION_HANDOFF.md when continuing work from another assistant/session.
 
 ## Collaboration model
 - The user is the project owner and final decision-maker.
@@ -18,7 +21,7 @@ It is a development-memory and coordination repository, not the Roblox place fil
 - GitHub is the persistent shared handoff point between assistants and sessions.
 
 ## Ground-truth rules
-- Distinguish confirmed, proposed, in progress, and unknown.
+- Distinguish USER-DECIDED, CONFIRMED, REPORTED, PROPOSED, and UNKNOWN.
 - Never claim a feature works unless there is test evidence.
 - Never invent file paths, code structure, Roblox Studio state, test results, or implementation details.
 - Preserve decisions recorded in PROJECT_STATE.md unless the user explicitly changes them.
