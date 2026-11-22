@@ -22,7 +22,6 @@ This roadmap records sequencing and known priorities. It is not permission to be
 - [ ] Establish a fully verified, current source baseline.
 
 ## Stage 3 — Generic Combat Integration
-<badge-placeholder>
 - [ ] Verify posture calculation; resolve 13.2 actual vs 11.5 expected.
 - [ ] Verify parry window, successful parry, and attacker stun.
 - [ ] Verify guard break.
@@ -32,7 +31,7 @@ This roadmap records sequencing and known priorities. It is not permission to be
 - [ ] Verify permissions and ChildRemoved teardown.
 - [ ] Remove temporary test scaffolding and regression-test.
 - [ ] Update docs with evidence and obtain owner acceptance.
-  
+
 **Current priority:** Finish Stage 3. Do not begin Stage 4 until the owner confirms Stage 3 completion.
 
 ## Stage 4 — Movement and traversal follow-up
