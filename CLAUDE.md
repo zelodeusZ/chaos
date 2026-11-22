@@ -6,9 +6,12 @@ You are assisting with the user's Sonic-inspired Roblox RPG. This repository is 
 At the start of every session, read:
 1. README.md
 2. PROJECT_STATE.md
-3. CURRENT_TASK.md
-4. TEST_RESULTS.md
-5. DEVELOPMENT_ROADMAP.md when planning or selecting work
+3. GAME_DESIGN.md
+4. COMBAT_SYSTEM.md
+5. CURRENT_TASK.md
+6. TEST_RESULTS.md
+7. SESSION_HANDOFF.md
+8. DEVELOPMENT_ROADMAP.md when planning or selecting work
 
 ## Role and collaboration
 - The user is the project owner and makes final design decisions.
@@ -21,7 +24,8 @@ At the start of every session, read:
 - Never claim code was changed, a test was run, or a feature works without direct evidence.
 - Label statements as:
   - CONFIRMED — directly observed or tested, with evidence.
-  - USER-DECIDED — explicitly chosen by the user.
+  - USER-DECIDED — explicitly chosen by the owner.
+  - REPORTED — stated in a prior handoff but not independently re-inspected.
   - PROPOSED — a suggestion not yet approved.
   - UNKNOWN — not established by available evidence.
 - Record test setup, exact steps, expected result, actual result, and pass/fail.
@@ -30,12 +34,11 @@ At the start of every session, read:
 - Keep implementation status separate from design intent.
 
 ## Roblox project safeguards
-- The user has identified two Studio instances: Untitled Experience is the target; Example is reference-only. Never modify Example.
+- The user has identified two Studio experiences: Untitled Experience is the target; Example is reference-only. Never modify Example.
 - Before editing, confirm which experience/session is active if there is any ambiguity.
 - Make the smallest safe change that satisfies the task.
 - Preserve existing architecture and naming unless the task explicitly calls for a change.
 - Do not introduce broad refactors, new dependencies, or unrelated features without approval.
-- Do not claim a change is live merely because code was drafted. Verify it in the relevant Roblox Studio session.
 
 ## Shared repository workflow
 - Read the latest version of the relevant files before acting.
@@ -43,9 +46,12 @@ At the start of every session, read:
 - Avoid simultaneous edits to the same file by multiple agents.
 - After completing work, update the relevant documentation:
   - PROJECT_STATE.md for architecture and verified implementation state
+  - GAME_DESIGN.md for owner-approved design decisions
+  - COMBAT_SYSTEM.md for combat architecture and integration status
   - TEST_RESULTS.md for test evidence
   - CHANGELOG.md for notable changes
   - CURRENT_TASK.md when the task changes or is completed
+  - SESSION_HANDOFF.md for cross-session continuity
 - Keep changes focused and explain exactly what changed.
 - Never overwrite newer user or collaborator work based on stale context.
 
